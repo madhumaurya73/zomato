@@ -1,0 +1,309 @@
+*{
+    margin: 0px;
+    font-family: Arial;
+    border:border-box;
+}
+
+.bentobox{
+    height: 80px;
+   background-color:  #cb202d;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.logo{
+  height: 80px;
+  width: 110px;
+}
+.bentobox_logo{
+  color: white;    
+}
+.home_det{
+   text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.product:hover{
+  text-decoration: underline white;
+  transition: 0.6s;
+ 
+}
+.sing_up{
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.singin{
+  height: 50px;
+  width: 100px;
+  font-weight: 900;
+  background-color:#cb202d;
+  filter: drop-shadow(4px 2px 6px)
+}
+.singin:hover{
+  scale: 1.05;
+  background-color: #f3838d;
+}
+.imgbox{
+  height: 600px;
+ display: block;
+  justify-content: center;
+  align-items: center;
+  background-image: url("home2.jpg");
+  background-size:cover;
+}
+.headingbox{
+  height: 600px;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+   flex-direction: column;
+  background-color: rgba(0,0,0,0.6);
+}
+.line1{
+  color: white;
+  font-size: 55px;
+  font-weight: 900;
+}
+.line2{
+  color: white;
+
+}
+.menubtn{
+  height: 40px;
+  width: 150px;
+  background-color: #cb202d;
+  border: none;
+  border-radius: 10px;
+}
+.menu{
+  font-size: 17px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+
+}
+.menubtn:hover{
+  scale: 1.05;
+  filter: drop-shadow(0px 0px 5pX white);
+  background-color: #e27a83;
+}
+.pizza_box{
+  width: 900px;
+}
+.heading{
+  /* text-align: center; */
+  margin-top: 20px;
+  padding-left: 20px;
+  font-size: 40px;
+  font-weight: 900;
+}
+.heading3{
+  /* text-align: center; */
+  padding-left: 20px;
+  font-size: 40px;
+  font-weight: 900;
+}
+.para_box{
+  /* height: 400px; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.para1{
+  margin-top: 10px;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 550;
+}
+.pizza_img{
+  height: 350px;
+  width: 700px;
+}
+.btn{
+  margin-top: 10px;
+  padding-left: 20px;
+}
+.pizza_btn{
+ 
+  height: 40px;
+  width: 150px;
+  background-color: #cb202d;
+  border: none;
+  border-radius: 10px;
+}
+.pizza_btn_box{
+  font-size: 17px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+}
+.pizza_btn:hover{
+  scale: 1.05;
+  filter: drop-shadow(0px 0px 5pX white);
+  background-color: #e27a83;
+}
+.burger_box{
+  /* height: 500px; */
+  display: flex;
+  justify-content: space-evenly;
+}
+.burger_img{
+  height: 400px;
+  width: 500px;
+}
+.para_burger{
+  /* height: 400px;
+  width: 900px; */
+  margin-top: 10px;
+ 
+}
+.burger_heading{
+  padding-left: 20px;
+  font-size: 40px;
+  font-weight: 900;
+  /* font-size: 35px;
+  font-weight: 900; */
+}
+.para2{
+  margin-top: 10px;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 550;
+}
+.btn2{
+  margin-top: 50px;
+  padding-left: 50px;
+}
+.burger_btn{
+ 
+  height: 40px;
+  width: 150px;
+  background-color: #cb202d;
+  border: none;
+  border-radius: 10px;
+}
+.burger_btn_box{
+  font-size: 17px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+}
+.burger_btn:hover{
+  scale: 1.05;
+  filter: drop-shadow(0px 0px 5pX white);
+  background-color: #e27a83;
+}
+.name_dishes{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+.dishes_box{
+  height: 400px;
+  display:flex;
+  justify-content:space-evenly;
+  align-items: center;
+}
+.name_dishes{
+  margin-top: 5px;
+}
+.dishes_imgbox1{
+  margin-top: 30px;
+  height: 350px;
+  width:300px;
+  border: 2px solid black;
+}
+.pasta_name{
+  padding-left: 10px;
+}
+.dishes_pic1{
+  height: 230px;
+  width: 300px;
+}
+.pasta_btn{
+  height: 40px;
+  width: 150px;
+  background-color: #cb202d;
+  border: none;
+  border-radius: 10px;
+}
+.btn_class1{
+  margin-top: 10px;
+  padding-left: 10px;
+}
+.pasta_btn_name{
+  font-size: 17px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+}
+.dishes_imgbox2{
+  margin-top: 30px;
+  height: 350px;
+  width:300px;
+  border: 2px solid black;
+}
+.name_noodles{
+  padding-left: 10px;
+}
+.dishes_pic2{
+  height: 230px;
+  width: 300px;
+}
+.noodles_btn{
+  height: 40px;
+  width: 150px;
+  background-color: #cb202d;
+  border: none;
+  border-radius: 10px;
+}
+.btn_class2{
+  margin-top: 10px;
+  padding-left: 10px;
+}
+.noodles_btn_name{
+  font-size: 17px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+}
+.dishes_imgbox3{
+  margin-top: 30px;
+  height: 350px;
+  width:300px;
+  border: 2px solid black;
+}
+.name_tikki{
+  padding-left: 10px;
+}
+.dishes_pic3{
+  height: 230px;
+  width: 300px;
+}
+.tikki_btn{
+  height: 40px;
+  width: 150px;
+  background-color: #cb202d;
+  border: none;
+  border-radius: 10px;
+}
+.btn_class3{
+  margin-top: 10px;
+  padding-left: 10px;
+}
+.tikki_btn_name{
+  font-size: 17px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+}
+.menu_heading{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+
